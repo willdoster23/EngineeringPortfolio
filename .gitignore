@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# large media files (hosted externally)
+public/project_2007/2.007FinalCompetitionVideo.mp4
+public/project_humanoid/ProjectDemo.mp4
+public/project_yoyo/Tricks.mp4
+public/project_flexures/VacuumChuckVideo1.mp4
+
