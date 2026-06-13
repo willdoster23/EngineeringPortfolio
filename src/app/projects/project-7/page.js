@@ -113,7 +113,15 @@ export default function Project7() {
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", flexShrink: 0, width: "320px" }}>
-              <video src="/project_flexures/VacuumChuckVideo1.mp4" controls style={{ width: "100%", display: "block" }} />
+              <iframe
+                width="320"
+                height="320"
+                src="https://www.youtube.com/embed/W855NEKsgY0"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ display: "block" }}
+              />
               <img src="/project_flexures/MachinedChuck.jpg" alt="Machined vacuum chuck" style={{ width: "100%", display: "block" }} />
             </div>
           </div>

@@ -59,10 +59,13 @@ export default function Project2() {
             background: "#e8e8e8",
             overflow: "hidden",
           }}>
-            <video
-              src="/project_2007/2.007FinalCompetitionVideo.mp4"
-              controls
-              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/xVcdF2xaB0k"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
           </div>
         </div>

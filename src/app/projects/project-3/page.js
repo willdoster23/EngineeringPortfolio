@@ -87,7 +87,15 @@ export default function Project3() {
             <div style={{ display: "flex", flexDirection: "row", gap: "0.75rem", justifyContent: "flex-end", alignItems: "flex-start" }}>
               <img src="/project_yoyo/AllYoYos.png" alt="All yo-yos" style={{ display: "block", height: "250px", width: "auto" }} />
               <div style={{ flexShrink: 0 }}>
-                <video src="/project_yoyo/tricks.mp4" controls style={{ display: "block", height: "250px" }} />
+                <iframe
+                  width="250"
+                  height="250"
+                  src="https://www.youtube.com/embed/3OJYtPSKiYA"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ display: "block" }}
+                />
               </div>
             </div>
           </div>

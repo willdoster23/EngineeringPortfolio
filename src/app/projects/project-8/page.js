@@ -66,7 +66,14 @@ export default function Project8() {
             <h2 style={h2Style}>Overview</h2>
             <p style={pStyle}>For my robotics class, our team was tasked with using dual UR5 arms to perform a series of humanoid tasks, including manipulating objects such as plates, cups, and a microwave handle and performing pick-and-place operations with these items. As lead of the software team, I was responsible for the full software implementation — including the initial strategy, computer vision, pick-and-place execution, and coordination of all tasks across both arms. I received the Most Valuable Engineer award for my contributions to our team's success.</p>
           </div>
-          <video src="/project_humanoid/ProjectDemo.mp4" controls style={{ height: "600px", width: "auto", display: "block", flexShrink: 0 }} />
+          <iframe
+              width="100%"
+              style={{ aspectRatio: "16/9", display: "block", flexShrink: 0 }}
+              src="https://www.youtube.com/embed/6-UUgrnmtYM"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
         </div>
 
         {divider}
