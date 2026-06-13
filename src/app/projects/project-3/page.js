@@ -71,19 +71,15 @@ export default function Project3() {
         </h1>
 
         {/* Overview */}
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1.4fr",
-          gap: "3rem",
-          alignItems: "start",
-          marginBottom: "3rem",
-        }}>
-          <div>
-            <h2 style={h2Style}>Overview</h2>
+        <div style={{ marginBottom: "3rem" }}>
+          <h2 style={h2Style}>Overview</h2>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1.4fr",
+            gap: "3rem",
+            alignItems: "start",
+          }}>
             <p style={pStyle}>For my manufacturing class, our group was tasked with designing and manufacturing 50 identical yo-yos, with the central challenge being the development of an effective and scalable manufacturing process. Each yo-yo required two injection molded parts, a thermoformed part, and a press fit that could survive a 5-foot drop test. We successfully produced all 50 units with consistent press fits, and incorporated a unique free-spinning design that allowed the yo-yo to be used for tricks.</p>
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-            <div style={{ height: "calc(1.6rem + 1.25rem)" }} />
             <div style={{ display: "flex", flexDirection: "row", gap: "0.75rem", justifyContent: "flex-end", alignItems: "flex-start" }}>
               <img src="/project_yoyo/AllYoYos.png" alt="All yo-yos" style={{ display: "block", height: "250px", width: "auto" }} />
               <div style={{ flexShrink: 0 }}>

@@ -67,8 +67,9 @@ export default function Project8() {
             <p style={pStyle}>For my robotics class, our team was tasked with using dual UR5 arms to perform a series of humanoid tasks, including manipulating objects such as plates, cups, and a microwave handle and performing pick-and-place operations with these items. As lead of the software team, I was responsible for the full software implementation — including the initial strategy, computer vision, pick-and-place execution, and coordination of all tasks across both arms. I received the Most Valuable Engineer award for my contributions to our team's success.</p>
           </div>
           <iframe
-              width="100%"
-              style={{ aspectRatio: "16/9", display: "block", flexShrink: 0 }}
+              width="800"
+              height="450"
+              style={{ display: "block", flexShrink: 0 }}
               src="https://www.youtube.com/embed/6-UUgrnmtYM"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

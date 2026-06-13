@@ -32,7 +32,7 @@ export default function Contact() {
           maxWidth: "500px",
           margin: "0 auto 3rem",
         }}>
-          Always happy to chat — whether it's about professional opportunities, research, or just to connect!
+          Please reach out regarding professional opportunities, research, or anything else.
         </p>
 
         <div style={{
