@@ -11,7 +11,7 @@ const jobs = [
     dates: "Summer 2026",
     image: "/job_images/SpaceX.webp",
     objPos: "center top",
-    logo: "/job_images/SpaceXlogo.png",
+    logo: "/job_images/SpaceXLogo.png",
     logoText: false,
     bulletSize: "1.014rem",
     bullets: [
