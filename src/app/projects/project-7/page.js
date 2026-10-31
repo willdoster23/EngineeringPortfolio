@@ -64,7 +64,7 @@ export default function Project7() {
         }}>
           <div>
             <h2 style={h2Style}>Overview</h2>
-            <p style={pStyle}>For my sophomore year research project, I worked with a graduate student designing flexures to test the force-displacement characteristics of artificial muscles for potential robotic application. The flexures allowed attachment and flexing of an artificial muscle, measuring its force production and displacement through flexure deflection. I explored using an adjustable boundary condition to create a linearly varying stiffness flexure and proved the validity of the concept that was eventually incorporated into these flexures. I also designed and machined a vacuum chuck used on the desktop mill to cut the flexures.</p>
+            <p style={pStyle}>For my sophomore year research project, I worked with a graduate student designing flexures to test the force-displacement characteristics of artificial muscles from the MIT Raman Lab for potential robotic application. The flexures allowed attachment and flexing of an artificial muscle, measuring its force production and displacement through flexure deflection. I explored using an adjustable boundary condition to create a linearly varying stiffness flexure and proved the validity of the concept that was eventually incorporated into these flexures. I also designed and machined a vacuum chuck used on the desktop mill to cut the flexures.</p>
           </div>
           <img src="/project_flexures/3DPrint.jpg" alt="3D printed prototype" style={{ height: "280px", width: "auto", display: "block", flexShrink: 0 }} />
         </div>
@@ -81,7 +81,7 @@ export default function Project7() {
                 My specific goal was to design a beam configuration with linearly adjustable stiffness to enable precise stiffness control, simple enough to scale down to fit within a 14 mm diameter flexure. I evaluated several approaches analytically, including altering the angle between beams, changing beam cross-sections, and adjusting the contact position of a beam. I selected contact point adjustment for its scalability.
               </p>
               <p style={{ ...pStyle, marginBottom: "1.5rem" }}>
-                I developed a final design with an adjustable contact point and a linear spring connecting two beams, then optimized beam lengths, widths, and spring stiffness to produce a near-linear stiffness function. I CAD modeled and 3D printed a prototype to verify the analytical model, taking a series of measurements and confirming results with FEA analysis.
+                I developed a final dual-beam design with an adjustable contact point and a linear spring connecting two beams, then optimized beam lengths, widths, and spring stiffness to produce a near-linear stiffness function. I CAD modeled and 3D printed a prototype to verify the analytical model, taking a series of measurements and confirming results with FEA analysis.
               </p>
               <p style={pStyle}>
                 The analytical model was successfully verified, proving the viability of a variable stiffness configuration with an adjustable boundary condition. The concept was subsequently incorporated into the final flexure design.

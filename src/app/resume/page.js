@@ -8,8 +8,8 @@ export default function Resume() {
       <div style={{ display: "flex", justifyContent: "center", padding: "3rem 1rem 2rem" }}>
         <div style={{ width: "min(95%, 1140px)" }}>
           <a
-            href="/WillDosterResume_6_13_26.pdf"
-            download="WillDosterResume_6_13_26.pdf"
+            href="/WillDosterResume_10_31_26.pdf"
+            download="WillDosterResume_10_31_26.pdf"
             style={{
               display: "inline-block",
               marginLeft: "6.25rem",
@@ -27,7 +27,7 @@ export default function Resume() {
             Download PDF
           </a>
           <img
-            src="/WillDosterResume_6_13_26.png"
+            src="/WillDosterResume_10_31_26.png"
             alt="Will Doster Resume"
             style={{ width: "100%", display: "block" }}
           />

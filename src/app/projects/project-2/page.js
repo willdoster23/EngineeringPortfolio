@@ -50,7 +50,7 @@ export default function Project2() {
               lineHeight: 1.8,
               margin: 0,
             }}>
-              In my design and manufacturing class, students were tasked with building a robot to complete a series of point-earning tasks during a final competition. The theme of my year's competition was the movie <em>Wicked</em>. I placed <strong>3rd overall out of 200 students</strong> through strategic design and careful manufacturing and testing. I was the only student to autonomously retrieve the broom, which was the highest single point task in the competition. I also presented the robot and my design process in a formal design review. My robot received the MIT International Design Competition Award for outstanding originality and execution.
+              In my design and manufacturing class, students were tasked with building a robot to complete a series of point-earning tasks during a final competition. The theme of my year's competition was the movie <em>Wicked</em>. I placed <strong>3rd overall out of 150 students</strong> through strategic design and careful manufacturing and testing. I was the only student to autonomously retrieve the broom, which was the highest single point task in the competition. I also presented the robot and my design process in a formal design review. I was one of two students to receive the MIT International Design Competition Award for outstanding originality.
             </p>
           </div>
           <div style={{

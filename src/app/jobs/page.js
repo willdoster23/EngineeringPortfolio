@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const jobs = [
   {
     company: "SpaceX",
-    role: "Mechanical Engineering Intern",
+    role: "Tooling Intern",
     dates: "Summer 2026",
     image: "/job_images/SpaceX.webp",
     objPos: "center top",
@@ -15,8 +15,8 @@ const jobs = [
     logoText: false,
     bulletSize: "1.014rem",
     bullets: [
-      "Responsible for designing and implementing Starship tooling to increase manufacturing efficiency.",
-      "Making life interplanetary.",
+      "Designed gas-spring-actuated flip decks, work access platforms with electrically actuated hinged staircases for over-the-barrel access, and a 7,300 lb-capacity spreader bar for Starship barrel tools using hand calculations and FEA.",
+      "Owned projects from engineering drawings and supplier quoting through fabrication planning and build oversight.",
     ],
   },
   {
@@ -28,8 +28,8 @@ const jobs = [
     objPos: "center 30%",
     bulletSize: "1.014rem",
     bullets: [
-      "Created the first Text-to-CAD AI generation and editing environment directly integrated in NX using C#.",
-      "Trained an LLM on semantic descriptions of publicly available CAD objects converted into a custom Python representation. Combined supervised learning for syntactic understanding and reinforcement learning for geometric reasoning.",
+      "Programmed a Siemens NX plugin in C# enabling end-to-end text-to-CAD generation in a live CAD environment, a capability major CAD platforms did not yet offer.",
+      "Trained an LLM on semantic descriptions of CAD objects, combining supervised learning for CAD syntax and reinforcement learning for geometric reasoning.",
       "Designed the system to be scalable with larger LLMs and datasets to improve abilities on more complex CAD models.",
     ],
   },
@@ -42,7 +42,7 @@ const jobs = [
     logoText: false,
     bullets: [
       "Performed advanced structural and thermal FEA with Abaqus on rocket motor components for a variety of load cases.",
-      "Designed a modular, 3D printed ring igniter housing to reduce manufacturing costs and prevent nozzle clogging.",
+      "Designed the first modular, 3D-printed ring igniter housing at the company's largest rocket motor facility, using FEA to show it matched the machined design's reliability while reducing cost and preventing nozzle clogging.",
       "Processed material test data and created viscoelastic master curves with MATLAB and Excel for use in FEA analyses.",
     ],
   },

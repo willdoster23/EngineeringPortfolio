@@ -28,16 +28,16 @@ const involvement = [
   {
     org: "Pi Tau Sigma",
     role: "President",
-    dates: "May 2026 – Present",
+    dates: "January 2026 – Present",
     image: "/involvement_images/PTS.webp",
     bullets: [
-      "Responsible for initiating new members and organizing events to grow impact on MIT community. Communicating with MIT and PTS National leadership.",
+      "Leading new-member initiation and organizing graduate school information sessions, networking events, and dinners with faculty. Serving as primary contact for MIT and PTS National leadership.",
     ],
   },
   {
     org: "Tau Beta Pi",
     role: "Member",
-    dates: "May 2026 – Present",
+    dates: "January 2026 – Present",
     image: "/involvement_images/TBP.png",
     objFit: "contain",
     objBg: "#f5f5f5",
@@ -53,10 +53,53 @@ const involvement = [
     dates: "January 2025 – February 2025",
     image: "/involvement_images/GTL.jpg",
     bullets: [
-      "Created and delivered lessons and activities on electricity and magnetism and combinatorics to 10 classes of ~20 students to prepare students for university.",
+      "Created and delivered hands-on lessons on electricity and magnetism and combinatorics to 10 classes of ~20 high school students in Brescia, Italy to prepare them for university.",
+    ],
+  },
+  {
+    org: "Boy Scouts",
+    role: "Eagle Scout",
+    roleExtra: "Senior Patrol Leader",
+    dates: "August 2015 – May 2023",
+    image: "/involvement_images/BoyScouts.jpg",
+    bullets: [
+      "Guided 30 scouts through rank advancement as Senior Patrol Leader. For my Eagle project, led 10 scouts in building a roofed signage board for the sensory trail at Chastain Horse Park, a therapeutic riding nonprofit.",
     ],
   },
 ];
+
+const honors = [
+  { title: "SuperUROP Scholar", detail: "One of three mechanical engineering students selected, MIT (2026 – 2027)" },
+  { title: "MIT International Design Competition Award", detail: "For outstanding originality in the MIT Design and Manufacturing Robotics Competition (2025)" },
+  { title: "Academic All-Conference Award", detail: "MIT Men's Lacrosse, NCAA Division III, 3x recipient (2024, 2025, 2026)" },
+  { title: "Chi Phi Educational Trust Academic Scholarship", detail: "2026" },
+  { title: "National Merit Scholarship", detail: "2023" },
+];
+
+const presentations = [
+  { title: "Active Pitch Control in a Flapping-Wing Aerial-Aquatic Robot", detail: "Journal paper in preparation, tentative title, with Raphael Zufferey" },
+  { title: "Design and Testing of a Flapping-Wing Robot with Active Pitch Control", detail: "UROP Final Presentation, MIT AURA Lab (May 2026)" },
+  { title: "Flapping-Wing Robot Demonstration", detail: "Cambridge Science Festival" },
+  { title: "Intern Final Presentations", detail: "SpaceX (August 2026), Mecado (February 2026), Northrop Grumman (August 2025)" },
+];
+
+function RecognitionList({ heading, items }) {
+  return (
+    <div>
+      <h3 style={{
+        fontFamily: "'Cormorant Garamond', serif", fontWeight: 400,
+        fontSize: "1.4rem", letterSpacing: "0.04em", color: "#1a1a1a",
+        marginTop: 0, marginBottom: "1.25rem",
+      }}>{heading}</h3>
+      {items.map((item, i) => (
+        <div key={i} style={{ marginBottom: "1rem" }}>
+          <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "1rem", color: "#1a1a1a", lineHeight: 1.5 }}>{item.title}</div>
+          <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "0.85rem", color: "#888", lineHeight: 1.5 }}>{item.detail}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 const interests = [
   { label: "Backpacking", image: "/interest_images/Backpacking.jpg", col: 1, rowStart: 1, rowEnd: 3 },
@@ -178,6 +221,18 @@ export default function About() {
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "1.5rem" }}>
           {involvement.map((item, i) => <InvolvementCard key={i} item={item} />)}
+        </div>
+
+        {/* Honors & Presentations */}
+        <h2 style={{
+          fontFamily: "'Cormorant Garamond', serif", fontWeight: 300,
+          fontSize: "2.5rem", letterSpacing: "0.06em", color: "#1a1a1a",
+          marginTop: "4rem", marginBottom: "3rem", textAlign: "center",
+        }}>Honors & Presentations</h2>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "3rem" }}>
+          <RecognitionList heading="Honors" items={honors} />
+          <RecognitionList heading="Publications & Presentations" items={presentations} />
         </div>
 
         {/* Interests */}

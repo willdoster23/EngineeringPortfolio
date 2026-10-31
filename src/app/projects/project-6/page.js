@@ -54,7 +54,7 @@ export default function Project6() {
         }}>
           <div>
             <h2 style={h2Style}>Overview</h2>
-            <p style={pStyle}>For my freshman year research project, I worked with a graduate student designing a laser ablation system to cut chips for use in microfluidics, specifically to serve as tissue-on-chip platforms for biological experiments. Through this research, I designed and machined a gas spring system to safely open and close the laser hood, assembled a fume extraction system, and programmed the first version of the galvo system controls for the cutting.</p>
+            <p style={pStyle}>For my freshman year research project, I worked with a graduate student designing a laser ablation system to cut 20 µm microfluidic channels in chips, specifically to serve as tissue-on-chip platforms for biological experiments. Through this research, I designed and machined a gas spring system to safely open and close the laser hood, assembled a fume extraction system, and programmed the first version of the galvo system controls for the cutting.</p>
           </div>
           <img
             src="/project_laser/OverviewImage.jpg"
