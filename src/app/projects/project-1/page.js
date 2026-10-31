@@ -58,7 +58,7 @@ export default function Project1() {
         <div style={{ marginBottom: "3rem" }}>
           <h2 style={h2Style}>Overview</h2>
           <p style={{ ...pStyle, marginBottom: "1.5rem" }}>Since my junior year, I have led a project in Professor Raphael Zufferey&apos;s MIT AURA Lab asking how active wing pitch changes the lift, thrust, and efficiency of flapping-wing flight. Birds adjust their wing pitch as they flap, but most flapping-wing robots cannot, because pitch control typically requires a separate, bulky mechanism. I designed and built a two-winged robot around a compact differential gearbox that lets two oscillating motors drive both flap and pitch.</p>
-          <p style={{ ...pStyle, marginBottom: "2rem" }}>Across more than 1,100 wind-flow experiments, active pitch raised lift per watt by up to 48% at a representative flight condition, and an optimized wing motion produced more lift than the robot&apos;s weight while generating positive thrust. The robot has not yet flown freely; free flight and swimming are the next goals. This work is part of MIT&apos;s SuperUROP program and is being prepared for journal publication.</p>
+          <p style={{ ...pStyle, marginBottom: "2rem" }}>Across more than 1,100 wind-flow experiments, active pitch raised lift per watt by up to 48%. Lift per watt is a measure of flight efficiency, meaning a robot could fly further on the same battery. An optimized wing motion also produced more lift than the robot&apos;s weight while generating positive thrust, proving free flight is possible. This work is part of MIT&apos;s SuperUROP program and is being prepared for journal publication.</p>
           <img src="/project_pitchingwing/robot_full.jpg" alt="Flapping-wing robot with both wings extended" style={{ width: "100%", display: "block" }} />
         </div>
 
@@ -150,7 +150,7 @@ export default function Project1() {
           <img src="/project_pitchingwing/pitch_effect.png" alt="Power, lift, and lift per watt versus flap amplitude for five pitch amplitudes" style={{ width: "100%", display: "block", marginBottom: "3rem" }} />
 
           <h3 style={h3Style}>Bayesian Optimization</h3>
-          <p style={{ ...pStyle, marginBottom: "1.5rem" }}>Testing every combination of five flapping parameters is impractical, so Bayesian optimization, which is rarely used in flapping-wing experiments, learned from each result to select the next trial. Within 79 trials at 5 m/s, it found a condition producing 3.69 N of lift with thrust exceeding drag: 39% more than the best grid-search result and more than the robot&apos;s 3.43 N weight.</p>
+          <p style={{ ...pStyle, marginBottom: "1.5rem" }}>Testing every combination of five flapping parameters is impractical, so I used Bayesian optimization, a method rarely applied to flapping-wing experiments that learns from each result to select the next trial. Within 79 trials at 5 m/s, it found a condition producing 3.69 N of lift with thrust exceeding drag: 39% more than the best grid-search result and more than the robot&apos;s 3.43 N weight.</p>
           <img src="/project_pitchingwing/bayes_opt.png" alt="Lift per trial during Bayesian optimization compared with the best grid-search lift and the robot's weight" style={{ width: "100%", display: "block", marginBottom: "3rem" }} />
 
           <h3 style={h3Style}>Feedforward Motor Control</h3>
@@ -163,7 +163,7 @@ export default function Project1() {
         {/* Recognition & Collaboration */}
         <div style={{ marginBottom: "3rem" }}>
           <h2 style={h2Style}>Recognition & Collaboration</h2>
-          <p style={pStyle}>I was one of three mechanical engineering students selected for SuperUROP, MIT&apos;s yearlong program for graduate-level undergraduate research, and I am preparing these results for journal publication and the SuperUROP Research Showcase. My demonstration to the University of Tokyo helped secure a $120,000 research partnership with the AURA Lab, and I have presented the work to flapping-wing researchers at EPFL. At the Cambridge Science Festival, I showed young students how the robot&apos;s motors and gearbox make its wings flap and twist.</p>
+          <p style={pStyle}>I was one of three mechanical engineering students selected for SuperUROP, MIT&apos;s yearlong program for graduate-level undergraduate research, and I am preparing these results for journal publication and the SuperUROP Research Showcase. My demonstration to the University of Tokyo helped secure a $120,000 research partnership with the AURA Lab, and I have presented the work to flapping-wing researchers at EPFL. At the Cambridge Science Festival, I showed young students how the robot&apos;s motors and gearbox make its wings flap and twist, sparking their curiosity in STEM.</p>
         </div>
 
         {divider}
